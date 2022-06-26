@@ -4,8 +4,7 @@
 
 import SwiftUI
 
-#if os(iOS)
-public extension UIApplication {
+public extension Bundle {
     static var version: String {
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String? ?? "1.0"
     }
@@ -16,17 +15,3 @@ public extension UIApplication {
         return "\(version) (\(build))"
     }
 }
-#elseif os(macOS)
-public extension NSApplication {
-    static var version: String {
-        return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String? ?? "1.0"
-    }
-    static var build: String {
-        return Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String? ?? "1"
-    }
-    static var versionBuild: String {
-        return "\(version) (\(build))"
-    }
-}
-#endif
-
