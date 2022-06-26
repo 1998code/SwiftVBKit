@@ -20,7 +20,7 @@ macOS     | 13     | > 10.10
 tvOS      | 16     | > 9
 
 ## Usage
-`import SwiftVBKit`
+`import SwiftVB`
 
 Type            | Use
 --------------- | -----

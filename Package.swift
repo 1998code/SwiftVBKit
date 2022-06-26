@@ -7,7 +7,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftVBKit",
+    name: "SwiftVB",
     platforms: [
         .iOS(.v8),
         .watchOS(.v2),
@@ -16,17 +16,17 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SwiftVBKit",
-            targets: ["SwiftVBKit"]),
+            name: "SwiftVB",
+            targets: ["SwiftVB"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "SwiftVBKit",
+            name: "SwiftVB",
             dependencies: []),
-        .testTarget(
-            name: "SwiftVBKitTests",
-            dependencies: ["SwiftVBKit"]),
+//        .testTarget(
+//            name: "SwiftVBTests",
+//            dependencies: ["SwiftVB"]),
     ]
 )
