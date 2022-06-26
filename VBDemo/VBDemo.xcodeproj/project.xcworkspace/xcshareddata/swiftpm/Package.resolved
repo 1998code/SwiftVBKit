@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/1998code/SwiftVBKit",
       "state" : {
-        "revision" : "9cad796f89d604788ef26f8be03c6776d3c59275",
-        "version" : "1.1.0"
+        "revision" : "543bc94e95f2e2c96059d7267dcb9b61f4b4619a",
+        "version" : "1.3.0"
       }
     }
   ],

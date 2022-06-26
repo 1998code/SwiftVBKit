@@ -11,7 +11,7 @@
 		3A6D27BB2868206B00D16A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D27BA2868206B00D16A7E /* ContentView.swift */; };
 		3A6D27BD2868206B00D16A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6D27BC2868206B00D16A7E /* Assets.xcassets */; };
 		3A6D27C12868206B00D16A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6D27C02868206B00D16A7E /* Preview Assets.xcassets */; };
-		3A6D27C9286820A000D16A7E /* SwiftVBKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A6D27C8286820A000D16A7E /* SwiftVBKit */; };
+		3A6D27CF28682C4A00D16A7E /* SwiftVB in Frameworks */ = {isa = PBXBuildFile; productRef = 3A6D27CE28682C4A00D16A7E /* SwiftVB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6D27C9286820A000D16A7E /* SwiftVBKit in Frameworks */,
+				3A6D27CF28682C4A00D16A7E /* SwiftVB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +40,7 @@
 			children = (
 				3A6D27B72868206B00D16A7E /* VBDemo */,
 				3A6D27B62868206B00D16A7E /* Products */,
+				3A6D27CD28682C4A00D16A7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3A6D27CD28682C4A00D16A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,7 +96,7 @@
 			);
 			name = VBDemo;
 			packageProductDependencies = (
-				3A6D27C8286820A000D16A7E /* SwiftVBKit */,
+				3A6D27CE28682C4A00D16A7E /* SwiftVB */,
 			);
 			productName = VBDemo;
 			productReference = 3A6D27B52868206B00D16A7E /* VBDemo.app */;
@@ -353,16 +361,16 @@
 			repositoryURL = "https://github.com/1998code/SwiftVBKit";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 1.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3A6D27C8286820A000D16A7E /* SwiftVBKit */ = {
+		3A6D27CE28682C4A00D16A7E /* SwiftVB */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3A6D27C7286820A000D16A7E /* XCRemoteSwiftPackageReference "SwiftVBKit" */;
-			productName = SwiftVBKit;
+			productName = SwiftVB;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
