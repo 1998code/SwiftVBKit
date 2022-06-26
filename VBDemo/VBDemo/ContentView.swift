@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftVBKit
+import SwiftVB
 
 struct ContentView: View {
     var body: some View {
