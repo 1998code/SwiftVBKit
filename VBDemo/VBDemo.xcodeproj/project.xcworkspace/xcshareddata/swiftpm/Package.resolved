@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftvbkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1998code/SwiftVBKit",
+      "state" : {
+        "revision" : "9cad796f89d604788ef26f8be03c6776d3c59275",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
