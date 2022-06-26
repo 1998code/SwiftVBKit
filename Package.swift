@@ -9,9 +9,10 @@ import PackageDescription
 let package = Package(
     name: "SwiftVBKit",
     platforms: [
-        .iOS(.v14),
-        .watchOS(.v7),
-        .macOS(.v11)
+        .iOS(.v8),
+        .watchOS(.v2),
+        .macOS(.v10_10),
+        .tvOS(.v9)
     ],
     products: [
         .library(
