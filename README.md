@@ -1,3 +1,5 @@
 # SwiftVBKit
+Get Version and Build number easily with Swift and SwiftUI.
 
-A description of this package.
+## License
+MIT
